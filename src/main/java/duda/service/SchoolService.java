@@ -15,11 +15,9 @@ import java.util.stream.Collectors;
 public class SchoolService {
 
     private final SchoolRepository repository;
-    private final PupilService pupilService;
-
+    
     public SchoolService(SchoolRepository repo, PupilService pupilService) {
         this.repository = repo;
-        this.pupilService = pupilService;
     }
 
     public List<School> findAll() {
