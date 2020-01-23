@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 public class SchoolService {
 
     private final SchoolRepository repository;
-    
+
     public SchoolService(SchoolRepository repo, PupilService pupilService) {
         this.repository = repo;
     }
